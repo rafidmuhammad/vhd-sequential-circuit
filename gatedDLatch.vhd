@@ -11,7 +11,7 @@ end entity;
 
 architecture rtl of gatedDLatch is
 begin
-  process (clk)
+  process (clk, D)
   begin
     if clk = '1' then
       q <= D;
